@@ -70,4 +70,4 @@ sendButton.addEventListener("click", function (sendButtonClickEvent) {
   sendMessages(sender, message);
   myMessage.value = "";
 });
-setInterval(updateMessages(), 10000);
+setInterval(updateMessages, 1000);
